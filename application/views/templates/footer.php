@@ -6,7 +6,7 @@
 						</ul>
 						<p><small>
 							© <?php echo date("Y"); ?>
-							<a href="https://github.com/juliadmytrenko">Julia Dmytrenko</a>
+							<a href="https://github.com/juliadmytrenko">Julia Dmytrenko</a> 😘
 						</small></p>
 						<p>Kod udostępniony na zasadach licencji  <a href="https://github.com/thomaspark/bootswatch/blob/master/LICENSE">MIT</a>.</p>
 					</div>
