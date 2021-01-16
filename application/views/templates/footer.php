@@ -4,6 +4,8 @@
 						<ul class="list-unstyled">
 							<li class="float-lg-right"><a href="">Wróć na górę</a> &uarr;</li>
 						</ul>
+						<br>
+						<hr>
 						<p><small>
 							© <?php echo date("Y"); ?>
 							<a href="https://github.com/juliadmytrenko">Julia Dmytrenko</a> 😘

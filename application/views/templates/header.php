@@ -7,20 +7,20 @@
 			  href = "<?php echo base_url(); ?>assets/style.css">
 	</head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="">Navbar</a>
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url(); ?>">Strona główna
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-		<li class="nav-item">
-			<a class="nav-link" href="<?php echo base_url(); ?>posts">Posty</a>
-		</li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>contact">Kontakt</a>
-      </li>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+	<div class="container">
+	  <a class="navbar-brand" href="">Navbar</a>
+		<ul class="navbar-nav">
+		  <li class="nav-item active">
+			<a class="nav-link" href="<?php echo base_url(); ?>">Strona główna</a>
+		  </li>
+			<li class="nav-item">
+				<a class="nav-link" href="<?php echo base_url(); ?>posts">Posty</a>
+			</li>
+		  <li class="nav-item">
+			<a class="nav-link" href="<?php echo base_url(); ?>contact">Kontakt</a>
+		  </li>
+	</div>
 </nav>
 
 <div class="container mt-4">

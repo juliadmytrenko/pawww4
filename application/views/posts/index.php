@@ -1,6 +1,6 @@
 <h2><?= $title ?></h2>
 
-<div class="my-3">
+<div class="my-4">
 	<?php foreach ($posts as $post) : ?>
 		<div class="card mb-3">
 			<div class="row g-0 pl-4 pt-4 pt-md-0">
