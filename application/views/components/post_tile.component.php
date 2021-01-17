@@ -12,7 +12,7 @@
 									<h3 class="card-title"> '.$post['title'].'</h3>
 									<small class="post-date">📅 '.$post['created_at'].'</small>
 									<p class="card-text">'.$post['body'].'</p>
-									<button type="button" class="btn btn-primary">Więcej</button>
+									<a href='.base_url().'posts/'.$post['slug'].'><button type="button" class="btn btn-primary" onclick="myFunction()" >Więcej</button></a>
 								</div>
 							</div>
 						</div>
