@@ -9,6 +9,10 @@
 
 			$data['title'] = ucfirst($page);
 
+			if($page === 'home') {
+				$data['latest_posts'] = $this->post_model->get_latest_posts();
+			}
+
 			$this->load->view('templates/header');
 			$this->load->view('pages/'.$page, $data);
 			$this->load->view('templates/footer');
