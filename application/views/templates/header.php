@@ -9,13 +9,13 @@
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 	<div class="container">
-	  <a class="navbar-brand" href="">Navbar</a>
+	  <a class="navbar-brand" href="<?php echo base_url(); ?>">Navbar</a>
 		<ul class="navbar-nav">
 		  <li class="nav-item active">
 			<a class="nav-link" href="<?php echo base_url(); ?>">Strona główna</a>
 		  </li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php echo base_url(); ?>posts">Posty</a>
+				<a class="nav-link" href="<?php echo base_url(); ?>posts">Blog</a>
 			</li>
 		  <li class="nav-item">
 			<a class="nav-link" href="<?php echo base_url(); ?>contact">Kontakt</a>
