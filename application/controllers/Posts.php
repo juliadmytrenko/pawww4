@@ -11,6 +11,7 @@
 		}
 
 		public function view($slug = NULL) {
+			//$this->load->helper('url');
 			$data['post'] = $this->post_model->get_posts($slug);
 
 			if(empty($data['post'])) {

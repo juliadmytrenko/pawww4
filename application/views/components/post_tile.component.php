@@ -11,11 +11,8 @@
 								<div class="card-body">
 									<h3 class="card-title"> '.$post['title'].'</h3>
 									<small class="post-date">📅 '.$post['created_at'].'</small>
-<<<<<<< HEAD
 									<p class="card-text">'.$post['description'].'</p>
-=======
 									<p class="card-text">'.$post['body'].'</p>
->>>>>>> e9cc18e7ece7e935c5ededaa154803cda92f5b61
 									<a class="btn btn-primary" href='.site_url().'posts/'.$post['slug'].'>Więcej</a>
 								</div>
 							</div>
