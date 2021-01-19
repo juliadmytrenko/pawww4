@@ -2,7 +2,8 @@
 "title": "Choices.js",
 "slug": "choicesjs",
 "created_at": "Styczeń 16, 2021",
-"description": ""
+"description": "",
+"img_url": ""
 }
 ===
 

@@ -2,7 +2,8 @@
 "title": "tingle.js",
 "slug": "tinglejs",
 "created_at": "Styczeń 15, 2021",
-"description": ""
+"description": "",
+"img_url": ""
 }
 ===
 

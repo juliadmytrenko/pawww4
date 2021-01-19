@@ -2,7 +2,8 @@
 "title": "iTyped.js",
 "slug": "itypedjs",
 "created_at": "Styczeń 17, 2021",
-"description": ""
+"description": "",
+"img_url": ""
 }
 ===
 
