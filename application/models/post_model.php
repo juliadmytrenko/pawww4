@@ -3,11 +3,9 @@ use \Kurenai\Parser;
 use \Kurenai\Parsers\Metadata\JsonParser;
 use \Kurenai\Parsers\Content\ParsedownParser;
 
-
  class Post_model extends CI_Model {
 
  	private $parser;
- 	protected $post;
 
  	public  function __construct() {
 		$this->parser = new Parser(
@@ -16,44 +14,50 @@ use \Kurenai\Parsers\Content\ParsedownParser;
 		);
 	}
 
-	public function get_posts($slug = FALSE) {
+	public function get_posts($number = FALSE, $slug = FALSE) {
  		if($slug === FALSE) {
+			$files = scandir("./assets/posts");
+			$md_files = array_filter($files, "isMarkdown");
+			$md_files = array_values($md_files);
 
+			$posts = array();
 
+//			foreach ($md_files as $slug):
+//				$post_file_content = file_get_contents("./assets/posts/".$slug);
+//				$document = $this->parser->parse($post_file_content);
+//				array_push($posts, $document->getMetadata());
+//			endforeach;
+				if($number && $number <= count($md_files)) {
+					$numberOfPostsToGet = $number;
+				} else {
+					$numberOfPostsToGet = count($md_files);
+				}
 
- 			$query = $this->db->get('posts');
- 			return $query->result_array();
-		}
-
-
-		function isMarkdown($file)
-		{
-			// returns whether the file has an .md extension
-			if(pathinfo($file)['extension'] === "md") {
-					return $file;
+			for ($i=0; $i< $numberOfPostsToGet; $i++) {
+				$file = $md_files[$i];
+				$post_file_content = file_get_contents("./assets/posts/".$file);
+				$document = $this->parser->parse($post_file_content);
+				array_push($posts, $document->getMetadata());
 			}
+			// there should be sort by date function
+
+			return $posts;
 		}
 
- 		$files = scandir("./assets/posts");
-		//print_r(array_filter($files, array(pathinfo($files)['extension'] => "md")));
-
-		$md_files = array_filter($files, "isMarkdown");
-
-		print_r($md_files);
-
-
-
-//		echo "hujumuju";
 		$post_file_content = file_get_contents(base_url()."assets/posts/".$slug.".md");
 		$document = $this->parser->parse($post_file_content);
-		$this->post = $document->getMetadata();
-		$this->post['body'] = $document->getContent();
+		$post = $document->getMetadata();
+		$post['body'] = $document->getContent();
 
-		return $this->post;
-	}
-
-	public function get_latest_posts() {
-		$query = $this->db->query("SELECT * FROM posts ORDER BY created_at DESC LIMIT 5");
-		return $query->result_array();
+		return $post;
 	}
  }
+
+
+function isMarkdown($file)
+{
+	// returns whether the file has an .md extension
+	if(pathinfo($file)['extension'] === "md") {
+		return $file;
+	}
+}
