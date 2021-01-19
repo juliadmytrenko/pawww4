@@ -9,3 +9,7 @@ img {
 	display: block;
 	font-size: inherit;
 }
+
+pre {
+	box-shadow: 5px 5px 15px 5px #000000
+}

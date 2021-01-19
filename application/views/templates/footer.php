@@ -1,6 +1,6 @@
 			<footer id="footer">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12  mt-3">
 						<ul class="list-unstyled">
 							<li class="float-lg-right"><a href="">Wróć na górę</a> &uarr;</li>
 						</ul>
