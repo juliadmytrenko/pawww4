@@ -4,6 +4,7 @@
 		<div class="p-3 p-lg-4 text-white" style="width: 30rem">
 			<p class="display-4">Lorem ipsum!</p>
 			<p>dolor sit amet, consectetur adipiscing elit. Duis volutpat dui a dui dictum commodo. Suspendisse commodo magna viverra, cursus felis eget, blandit tortor. Pellentesque quam massa, finibus ut venenatis sit amet, suscipit vitae risus. </p>
+			<a href="#" class="btn btn-warning">Więcej</a>
 		</div>
 		<img src="https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu.jpg" alt="Kermit"/>
 	</div>
@@ -60,4 +61,6 @@
 					</div>
 			<?php endforeach;?>
 		</div>
+
+		<div class="d-flex justify-content-center my-5"><a href="<?php echo site_url().'posts/'?>" class="btn btn-warning">Wyświetl wszystkie posty</a></div>
 	</div>
