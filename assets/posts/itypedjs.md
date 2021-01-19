@@ -1,8 +1,8 @@
 {
-"title": "Swiper.js",
-"slug": "swiperjs",
-"created_at": "Styczeń 15, 2021",
-"description": "Swiper to najnowocześniejszy darmowy mobilny slider dotykowy z przyspieszanymi sprzętowo przejściami i niesamowitym natywnym zachowaniem. Jest przeznaczony do użytku w mobilnych witrynach internetowych, mobilnych aplikacjach internetowych i mobilnych aplikacjach natywnych / hybrydowych."
+"title": "iTyped.js",
+"slug": "itypedjs",
+"created_at": "Styczeń 17, 2021",
+"description": ""
 }
 ===
 

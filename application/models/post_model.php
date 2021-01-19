@@ -14,7 +14,7 @@ use \Kurenai\Parsers\Content\ParsedownParser;
 		);
 	}
 
-	public function get_posts($number = FALSE, $slug = FALSE) {
+	public function get_posts($slug = FALSE, $number = FALSE) {
  		if($slug === FALSE) {
 			$files = scandir("./assets/posts");
 			$md_files = array_filter($files, "isMarkdown");
@@ -22,16 +22,11 @@ use \Kurenai\Parsers\Content\ParsedownParser;
 
 			$posts = array();
 
-//			foreach ($md_files as $slug):
-//				$post_file_content = file_get_contents("./assets/posts/".$slug);
-//				$document = $this->parser->parse($post_file_content);
-//				array_push($posts, $document->getMetadata());
-//			endforeach;
-				if($number && $number <= count($md_files)) {
-					$numberOfPostsToGet = $number;
-				} else {
-					$numberOfPostsToGet = count($md_files);
-				}
+			if($number && $number <= count($md_files)) {
+				$numberOfPostsToGet = $number;
+			} else {
+				$numberOfPostsToGet = count($md_files);
+			}
 
 			for ($i=0; $i< $numberOfPostsToGet; $i++) {
 				$file = $md_files[$i];
@@ -39,7 +34,7 @@ use \Kurenai\Parsers\Content\ParsedownParser;
 				$document = $this->parser->parse($post_file_content);
 				array_push($posts, $document->getMetadata());
 			}
-			// there should be sort by date function
+			// there should be sort by date function, maybe add third sort argument with options latest, old, most popular
 
 			return $posts;
 		}

@@ -10,7 +10,7 @@
 			$data['title'] = ucfirst($page);
 
 			if($page === 'home') {
-				$data['latest_posts'] = $this->post_model->get_posts(4);
+				$data['latest_posts'] = $this->post_model->get_posts(false, 4);
 			}
 
 			$this->load->view('templates/header');
