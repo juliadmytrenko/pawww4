@@ -7,9 +7,7 @@
 			  href = "<?php echo base_url(); ?>assets/style.css">
 
 <!--		highlight for <code> and <pre>-->
-		<link rel="stylesheet"
-			  href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
-
+		<link href="<?php echo base_url(); ?>assets/prism.css" rel="stylesheet" />
 	</head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
