@@ -6,8 +6,9 @@
 "img_url": ""
 }
 ===
+&nbsp;
 
-# iTyped.js
+&nbsp;
 
 ###Instalacja
 
@@ -19,9 +20,12 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 ```
 
+&nbsp;
+
 ###Opis użycia
 
 Dodaj ten kod do swojego projektu.
+
 ```html
 <!-- Slider main container -->
 <div class="swiper-container">
@@ -44,8 +48,10 @@ Dodaj ten kod do swojego projektu.
     <div class="swiper-scrollbar"></div>
 </div>
 ```
+&nbsp;
 
 Zainicjalizuj Swipera w JavaScript.
+
 ```javascript
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -69,3 +75,9 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 })
 ```
+
+&nbsp;
+
+### Przykład użycia
+
+<span id="ityped">lagho;wegh</span>

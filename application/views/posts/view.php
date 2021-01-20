@@ -22,4 +22,12 @@
 	});
 </script>
 
+<!--iTyped.js-->
+<script src="https://unpkg.com/ityped@1.0.3"></script>
+<script type="module">
+	import { init } from 'ityped';
+	const iTyped = document.querySelector('#ityped');
+	init(iTyped, { showCursor: false, strings: ['Lorem', 'Ipsum', 'costam' ] });
+</script>
+
 
