@@ -2,6 +2,39 @@ img {
 	max-width: 100%;
 }
 
+pre {
+	box-shadow: 5px 5px 15px 5px #000000
+}
+
+.ityped-cursor {
+	font-size: 2.2rem;
+	opacity: 1;
+	-webkit-animation: blink 0.3s infinite;
+	-moz-animation: blink 0.3s infinite;
+	animation: blink 0.3s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes blink {
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes blink {
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes blink {
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
 .post-date {
 	background-color: #f4f4f4;
 	padding: 4px;
@@ -10,9 +43,7 @@ img {
 	font-size: inherit;
 }
 
-pre {
-	box-shadow: 5px 5px 15px 5px #000000
-}
+
 
 /* styler for the Swiper.js swiper*/
 .swiper-container {
@@ -30,3 +61,5 @@ pre {
 	justify-content: center;
 	align-items: center;
 }
+
+

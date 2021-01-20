@@ -22,12 +22,5 @@
 	});
 </script>
 
-<!--iTyped.js-->
-<script src="https://unpkg.com/ityped@1.0.3"></script>
-
-<script type="text/javascript">
-	const iTyped = document.querySelector('#ityped');
-	ityped.init(iTyped, { showCursor: false, strings: ['przykład użycia', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ] });
-</script>
 
 

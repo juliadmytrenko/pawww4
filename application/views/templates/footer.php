@@ -17,6 +17,15 @@
 		</div>
 
 
+		<!--iTyped.js-->
+		<script src="https://unpkg.com/ityped@1.0.3"></script>
+
+		<script type="text/javascript">
+			const iTyped = document.querySelector('#ityped');
+			const helloWorld = document.querySelector('#ityped-hello');
+			ityped.init(iTyped, { showCursor: false, strings: ['przykład użycia', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ] });
+			ityped.init(helloWorld, { showCursor: true, strings: ['Witaj świecie!', 'Hello World!', 'Bonjour monde!', '¡Hola Mundo!', 'Hallo Welt!', 'こんにちは世界！', 'Ahoj světe!', 'Ciao mondo!', 'Halo Dunia!', '你好世界！' ] });
+		</script>
 		<script src="<?php echo base_url(); ?>assets/prism.js"></script>
 		<script src="<?php echo base_url(); ?>assets/script.js"></script>
 	</body>

@@ -2,7 +2,7 @@
 <p>Strona główna</p>
 	<div class="jumbotron bg-secondary d-flex flex-wrap align-items-center justify-content-center p-4">
 		<div class="p-3 p-lg-4 text-white" style="width: 30rem">
-			<p class="display-4">Lorem ipsum!</p>
+			<p class="display-4" style="min-height: 70px;"><span  id="ityped-hello"></span></p>
 			<p>dolor sit amet, consectetur adipiscing elit. Duis volutpat dui a dui dictum commodo. Suspendisse commodo magna viverra, cursus felis eget, blandit tortor. Pellentesque quam massa, finibus ut venenatis sit amet, suscipit vitae risus. </p>
 			<a href="#" class="btn btn-warning">Więcej</a>
 		</div>
