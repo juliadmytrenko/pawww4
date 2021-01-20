@@ -26,6 +26,14 @@
 			ityped.init(iTyped, { showCursor: false, strings: ['przykład użycia', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ] });
 			ityped.init(helloWorld, { showCursor: true, strings: ['Witaj świecie!', 'Hello World!', 'Bonjour monde!', '¡Hola Mundo!', 'Hallo Welt!', 'こんにちは世界！', 'Ahoj světe!', 'Ciao mondo!', 'Halo Dunia!', '你好世界！' ] });
 		</script>
+		<!--wiv.js-->
+		<script src="<?php echo base_url(); ?>assets/wiv.js"></script>
+		<script>
+			//initial wivs and call initial frame render
+			let w = wiv.wiv();
+			w.initWivs();
+		</script>
+
 		<script src="<?php echo base_url(); ?>assets/prism.js"></script>
 		<script src="<?php echo base_url(); ?>assets/script.js"></script>
 	</body>

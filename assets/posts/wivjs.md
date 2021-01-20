@@ -6,66 +6,36 @@
 "img_url": ""
 }
 ===
+&nbsp;
 
-# Wiv.js
+&nbsp;
 
-###Instalacja
+###Instalacja i opis użycia
 
 ```html
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	
-	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-```
-
-###Opis użycia
-
-Dodaj ten kod do swojego projektu.
-```html
-<!-- Slider main container -->
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
+<div class="wiv" data-wiv-speed=".55" data-wiv-height="5" data-wiv-tightness="6" data-wiv-thickness="1"
+	 data-wiv-color="#2C0EF0">
+	Hello World
 </div>
 ```
 
-Zainicjalizuj Swipera w JavaScript.
+&nbsp;
+
+Zainicjalizuj wiv w JavaScript.
+
 ```javascript
-var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-})
+<script src="wiv.js"></script>
+<script>
+	//initial wivs and call initial frame render
+	let w = wiv.wiv();
+	w.initWivs();
+</script>
 ```
+
+&nbsp;
+
+### Przykład użycia
+
+<div class="wiv" data-wiv-speed=".55" data-wiv-height="5" data-wiv-tightness="6" data-wiv-thickness="1" data-wiv-color="#2C0EF0">
+   Sed sollicitudin urna rhoncus, faucibus nisi nec, ornare enim. Nulla leo magna, suscipit vel nisi a, tincidunt mattis mauris. Donec ornare, dui eu convallis tincidunt, felis ligula sagittis libero, vulputate vulputate tellus nunc at velit. Quisque augue ex, sodales in ultrices eu, venenatis quis massa. Aliquam finibus elit eget nisi accumsan eleifend. Pellentesque interdum vel eros vitae sagittis. Duis ut aliquet mauris, et consectetur diam.
+</div>
