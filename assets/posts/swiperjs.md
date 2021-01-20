@@ -6,8 +6,7 @@
 "img_url": ""
 }
 ===
-
-# Swiper.js
+&nbsp;
 
 ###Instalacja
 
@@ -19,9 +18,12 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 ```
 
+&nbsp;
+
 ###Opis użycia
 
 Dodaj ten kod do swojego projektu.
+
 ```html
 <!-- Slider main container -->
 <div class="swiper-container">
@@ -44,8 +46,10 @@ Dodaj ten kod do swojego projektu.
     <div class="swiper-scrollbar"></div>
 </div>
 ```
+&nbsp;
 
 Zainicjalizuj Swipera w JavaScript.
+
 ```javascript
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -69,3 +73,18 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 })
 ```
+
+&nbsp;
+
+### Przykład użycia
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://s3.amazonaws.com/iexplore_web/images/assets/000/002/690/original/spinx_-_Roderick_Eime.jpg?1439577916" alt="Sphinx"/></div>
+        <div class="swiper-slide"><img src="https://cdn1.matadornetwork.com/blogs/1/2018/02/Taj-Mahal.jpg" alt="Taj Mahal"/></div>        
+<div class="swiper-slide"><img src="https://www.bhutanpeacefultour.com/wp-content/uploads/2019/02/Paro-Taktsang-1.jpg" alt="klasztor Gniazdo Tygrysa w Bhutanie"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

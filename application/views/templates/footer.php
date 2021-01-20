@@ -16,8 +16,7 @@
 			</footer>
 		</div>
 
-		<script src="./assets/script.js"></script>
-
 		<script src="<?php echo base_url(); ?>assets/prism.js"></script>
+		<script src="<?php echo base_url(); ?>assets/script.js"></script>
 	</body>
 </html>

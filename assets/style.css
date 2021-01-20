@@ -13,3 +13,20 @@ img {
 pre {
 	box-shadow: 5px 5px 15px 5px #000000
 }
+
+/* styler for the Swiper.js swiper*/
+.swiper-container {
+	width: 100%;
+	height: 600px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
