@@ -24,10 +24,10 @@
 
 <!--iTyped.js-->
 <script src="https://unpkg.com/ityped@1.0.3"></script>
-<script type="module">
-	import { init } from 'ityped';
+
+<script type="text/javascript">
 	const iTyped = document.querySelector('#ityped');
-	init(iTyped, { showCursor: false, strings: ['Lorem', 'Ipsum', 'costam' ] });
+	ityped.init(iTyped, { showCursor: false, strings: ['przykład użycia', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ] });
 </script>
 
 
