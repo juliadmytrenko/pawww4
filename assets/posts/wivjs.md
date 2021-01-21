@@ -3,7 +3,7 @@
 "slug": "wivjs",
 "created_at": "Styczeń 19, 2021",
 "description": "",
-"img_url": ""
+"img_url": "https://camo.githubusercontent.com/b8a579f666db367464106c183af4b913a7e320515d6b543ba5f938e222a0b23f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4e5539424f6f65397a7563387a7478696d612f67697068792e676966"
 }
 ===
 &nbsp;

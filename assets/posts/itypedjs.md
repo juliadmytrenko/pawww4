@@ -2,8 +2,8 @@
 "title": "iTyped.js",
 "slug": "itypedjs",
 "created_at": "Styczeń 17, 2021",
-"description": "",
-"img_url": ""
+"description": "Wpisz dowolny ciąg i obserwuj, jak wpisuje z ustawioną prędkością, cofnij wpisany tekst i rozpocznij nowe zdanie dla dowolnej liczby ustawionych ciągów.",
+"img_url": "https://camo.githubusercontent.com/52cea81026635bed2555f853d6702158cadd31065435f6bafa255289e54be060/68747470733a2f2f63646e2e7261776769742e636f6d2f6c75697376696e69636975733136372f6974797065642f6d61737465722f696d672f6974797065646a732e676966"
 }
 ===
 &nbsp;

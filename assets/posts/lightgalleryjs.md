@@ -2,8 +2,8 @@
 "title": "lightgallery.js",
 "slug": "lightgalleryjs",
 "created_at": "Styczeń 18, 2021",
-"description": "",
-"img_url": ""
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget scelerisque leo, sed dapibus tellus. Maecenas elementum condimentum metus vel ullamcorper. Fusce tempor congue ultrices. Proin tellus purus, tincidunt sit amet sollicitudin viverra, tempor vitae mi. Sed malesuada purus nec pretium egestas. Quisque vitae ullamcorper eros. Sed quis massa finibus, placerat odio non, porta sem.",
+"img_url": "https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
 }
 ===
 

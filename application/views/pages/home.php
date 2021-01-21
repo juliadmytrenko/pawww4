@@ -6,7 +6,7 @@
 			<p>dolor sit amet, consectetur adipiscing elit. Duis volutpat dui a dui dictum commodo. Suspendisse commodo magna viverra, cursus felis eget, blandit tortor. Pellentesque quam massa, finibus ut venenatis sit amet, suscipit vitae risus. </p>
 			<a href="#" class="btn btn-warning">Więcej</a>
 		</div>
-		<img src="https://pbs.twimg.com/profile_images/1080855598298611713/lTS-u1Iu.jpg" alt="Kermit"/>
+		<img src="https://bstatic.com/xdata/images/xphoto/1182x887/82877075.jpg?k=db9e00135b7b8f038aad88a7676235667ca249a5eed997a499677812fa332833&o=?size=S" alt="forest" style="max-height: 400px"/>
 	</div>
 
 	<h4>Najnowsze posty</h4>
